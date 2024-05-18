@@ -56,3 +56,20 @@ if (weather === 'sunny'){
     console.log('Check the weather forecast for more details.')
 }
 
+//4. Simple Login System ( if the credentials match) 
+//- username: admin, pass: adminpass - Welcome, admin!- username: user123 , pass: password123 - Welcome,
+// user123!
+//- missmatch -  Invalid username or password.
+
+let username = 'admin'
+let pass = 'adminpass'
+
+if (username === 'admin' && pass === 'adminpass'){
+    console.log('Welcome admin!')
+}else if (username === 'user123' && pass === 'password123'){
+    console.log('Welcome, user123!')
+}else{
+    console.log('Invalid username or password.')
+}
+
+
