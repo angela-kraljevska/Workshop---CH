@@ -103,3 +103,17 @@ if(score <=65){
     console.log('The person passed')
 }
 
+//3. Check temperature for comfort level ( comfort is between 20 and 25 )
+
+let temperature = 28
+let comfortLevel = true
+
+comfortLevel = temperature>=20 && comfortLevel<=25? 'Comfort Level Reached':'Comfort Level Not Reached'
+console.log(comfortLevel)
+
+if (temperature >=20 || comfortLevel <=25){
+    console.log('The comfort level is reached')
+}else{
+    console.log('The comfort level are not reached')
+}
+
