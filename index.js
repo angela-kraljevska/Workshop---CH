@@ -26,4 +26,16 @@ if (person <= 12){
 //- Friday - Almost weekend!
 //- Other day - Just another day.
 
-let day = 'Monday'
+let day = 'Wednesday'
+
+if (day === 'Monday'){
+    console.log('Start of the work week!')
+}else if (day === 'Wednesday'){
+    console.log('Midweek!')
+}else if (day === 'Friday'){
+    console.log('Almost weekend!')
+}else{
+    console.log('Just another day')
+}
+
+
