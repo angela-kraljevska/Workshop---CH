@@ -88,3 +88,18 @@ if(age>=18){
     console.log('The person cannot vote')
 }
 
+//2. Determining Pass or Fail Based on Score 0-100 ( below 65 is a fail )
+
+let score = 88
+
+let determination = false
+
+determination = score <=65? "Fail":'Pass'
+console.log(determination)
+
+if(score <=65){
+    console.log('The person failed')
+}else{
+    console.log('The person passed')
+}
+
