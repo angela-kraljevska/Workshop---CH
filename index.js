@@ -72,4 +72,19 @@ if (username === 'admin' && pass === 'adminpass'){
     console.log('Invalid username or password.')
 }
 
+//If else: Needs to be solved with if, else and with ternary operator
+
+//1. Check Age for Voting Eligibility
+
+let age = 17
+let daliSmeeDaGlasa = false
+
+daliSmeeDaGlasa = age <=18? 'Cannot Vote':'Can Vote'
+console.log(daliSmeeDaGlasa)
+
+if(age>=18){
+    console.log('The person can vote')
+}else{
+    console.log('The person cannot vote')
+}
 
