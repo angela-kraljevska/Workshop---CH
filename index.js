@@ -117,3 +117,17 @@ if (temperature >=20 || comfortLevel <=25){
     console.log('The comfort level are not reached')
 }
 
+//4. Determining Shipping Cost Based on Order Amount (if the amout is above 100 shipping is free, 
+//if not it's $10)
+
+let cost = 99
+let shippingCost = true
+
+shippingCost = cost>=150? 'Shipping is free':'Shipping is $10'
+console.log(shippingCost)
+
+if (cost >=100){
+    console.log('Shipping is free')
+}else{
+    console.log('Shipping is $10')
+}
